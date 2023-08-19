@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones con Arreglos</title>
+    <link rel="stylesheet" href="stylesArreglo.css">
+    <script src="funcionsArreglo.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Operaciones con Arreglos</h1>
+        <form id="array-form">
+            <label for="action">Seleccione una acción:</label>
+            <select id="action">
+                <option value="print">Imprimir Arreglo</option>
+                <option value="sum">Sumar Arreglo</option>
+                <option value="multiply">Multiplicar Arreglo</option>
+                <option value="sumRange">Sumar Arreglo entre Rango</option>
+            </select>
+            <div id="input-fields">
+                <!-- Input fields will be added dynamically based on selected action -->
+            </div>
+            <button type="submit">Realizar Acción</button>
+        </form>
+        <p id="result"></p>
+    </div>
+    
+</body>
+</html>

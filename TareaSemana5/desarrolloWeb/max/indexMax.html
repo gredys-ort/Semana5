@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Número Máximo de un Arreglo</title>
+    <link rel="stylesheet" href="stylesMax.css">
+    <script src="funcionsMax.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Número Máximo de un Arreglo</h1>
+        <form id="max-form">
+            <label for="input-array">Ingrese un arreglo de números separados por comas:</label>
+            <input type="text" id="input-array" required>
+            <label for="calculation-type">Seleccione el método de cálculo:</label>
+            <select id="calculation-type">
+                <option value="with">Con Math.max</option>
+                <option value="without">Sin Math.max</option>
+            </select>
+            <button type="submit">Calcular Máximo</button>
+        </form>
+        <p id="result"></p>
+    </div>
+</body>
+</html>
